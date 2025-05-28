@@ -1,5 +1,14 @@
 import streamlit as st
 import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import MinMaxScaler, OrdinalEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
+from sklearn.utils import resample
 import pickle
 
 # Load model yang sudah dilatih
