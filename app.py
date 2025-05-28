@@ -4,8 +4,8 @@ import pickle
 
 # Load model yang sudah dilatih
 @st.cache_data()
-def load_model(model_path):
-    with open(model_path, 'rb') as model_file:
+def load_model(model.pkl):
+    with open(model.pkl, 'rb') as model_file:
         model = pickle.load(model_file)
     return model
 
