@@ -4,8 +4,8 @@ import pickle
 
 # Load model yang sudah dilatih
 @st.cache_data()
-def load_model(model_path):
-    with open(model_path, 'rb') as model_file:
+def load_model(https://github.com/namaekoya/Belajar-Penerapan-Data-Science-2/blob/main/model.pkl):
+    with open(https://github.com/namaekoya/Belajar-Penerapan-Data-Science-2/blob/main/model.pkl, 'rb') as model_file:
         model = pickle.load(model_file)
     return model
 
@@ -53,7 +53,7 @@ def main():
     # Tombol untuk memulai prediksi
     if st.button('Prediksi'):
         # Load model
-        model = load_model('model.pkl')
+        model = load_model('https://github.com/namaekoya/Belajar-Penerapan-Data-Science-2/blob/main/model.pkl')
 
         # Masukkan data ke dalam dictionary
         input_data = {
