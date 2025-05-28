@@ -4,8 +4,8 @@ import pickle
 
 # Load model yang sudah dilatih
 @st.cache_data()
-def load_model(https://github.com/namaekoya/Belajar-Penerapan-Data-Science-2/blob/main/model.pkl):
-    with open(https://github.com/namaekoya/Belajar-Penerapan-Data-Science-2/blob/main/model.pkl, 'rb') as model_file:
+def load_model(https://raw.githubusercontent.com/namaekoya/Belajar-Penerapan-Data-Science-2/refs/heads/main/app.py):
+    with open(https://raw.githubusercontent.com/namaekoya/Belajar-Penerapan-Data-Science-2/refs/heads/main/app.py, 'rb') as model_file:
         model = pickle.load(model_file)
     return model
 
